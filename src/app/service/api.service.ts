@@ -9,9 +9,8 @@ import { company } from '../company';
 })
 
 export class ApiService {
-
-  companyUrl = 'http://20.241.198.252/api/v1.0/market/Company';
-  stockUrl = 'http://20.88.188.111/api/v1.0/market/CompanyEStock';
+companyUrl = 'https://estocksservice20220919093510.azurewebsites.net/api/v1.0/market/Company/';
+  stockUrl = 'https://estocks20220919092451.azurewebsites.net/api/v1.0/market/CompanyEStock/';
   registerSuccess: boolean = false;
   companyResponse: company = new company;
   companyResponseList: company[] = new Array;
