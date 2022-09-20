@@ -19,10 +19,12 @@ export class CompanyGetAllComponent implements OnInit {
     private route: ActivatedRoute, private toastr: ToastrService) { }
 
   ngOnInit() {
+    debugger;
     this.getcompanyList();
   }
 
-  getcompanyList(){
+  getcompanyList() {
+    debugger;
     return this.apiService.getAllCompany().subscribe((response: any) => {
       this.companyDetailsList =[];
       for (const res of response) {

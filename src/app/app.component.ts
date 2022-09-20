@@ -29,6 +29,7 @@ export class AppComponent implements OnInit {
   }
 
   listAll() {
+    debugger;
     this.router.navigateByUrl('getAllCompany');
   }
 
